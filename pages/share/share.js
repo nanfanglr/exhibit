@@ -5,7 +5,32 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    shares: [
+      {
+        "url": "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
+        "title": "18冬陈列指引1"
+      },
+      {
+        "url": "https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg",
+        "title": "18冬陈列指引2"
+      },
+      {
+        "url": "https://ws1.sinaimg.cn/large/0065oQSqly1fubd0blrbuj30ia0qp0yi.jpg",
+        "title": "18冬陈列指引3"
+      },
+      {
+        "url": "https://ws1.sinaimg.cn/large/0065oQSqly1fuh5fsvlqcj30sg10onjk.jpg",
+        "title": "18冬陈列指引4"
+      },
+      {
+        "url": "https://ws1.sinaimg.cn/large/0065oQSqly1fuo54a6p0uj30sg0zdqnf.jpg",
+        "title": "18冬陈列指引5"
+      },
+      {
+        "url": "https://ww1.sinaimg.cn/large/0065oQSqly1fszxi9lmmzj30f00jdadv.jpg",
+        "title": "18冬陈列指引6"
+      },
+    ]
   },
 
   /**

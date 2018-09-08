@@ -1,1 +1,38 @@
 /* pages/info/info.wxss */
+.i-container {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.tab {
+  width: 100%;
+  border-bottom: 1rpx solid #ccc;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+view.item {
+  width: 50%;
+  color: #434343;
+}
+
+ text.itemtext {
+  color: #999;
+  font-size: 30rpx;
+  padding-bottom: 16rpx;
+  padding-top: 16rpx;
+  font-weight: bold;
+}
+
+text.active {
+  color: #333;
+  font-size: 30rpx;
+  font-weight: bold;
+  border-bottom: 4rpx solid #f65959;
+}

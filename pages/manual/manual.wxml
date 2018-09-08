@@ -1,2 +1,8 @@
 <!--pages/manual/manual.wxml-->
-<text>pages/manual/manual.wxml</text>
+
+  <block wx:for-items="{{ manuals }}" wx:key="{{ index }}">
+    <view class='m-item'>
+      <image class='image' src='{{item.url}}' mode="widthFix" ></image>
+      <text class='title'>{{item.title}}</text>
+    </view>
+  </block>

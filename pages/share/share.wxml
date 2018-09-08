@@ -1,2 +1,9 @@
-<!--pages/share/share.wxml-->
-<text>pages/share/share.wxml</text>
+<view class='s-container'>
+  <block wx:for-items="{{ shares }}" wx:key="{{ index }}">
+    <view class='item'>
+      <image class='image'  src='{{item.url}}' mode="aspectFill"></image>
+      <text class='title'>{{item.title}}</text>
+    </view>
+  </block>
+
+</view>
