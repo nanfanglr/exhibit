@@ -1,12 +1,44 @@
 {
-  "pages":[
+  "pages": [
+    "pages/manual/manual",
+    "pages/share/share",
+    "pages/info/info",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/share-dtl/share-dtl"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e60314",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 0 0",
+    "list": [
+      {
+        "pagePath": "pages/manual/manual",
+        "iconPath": "image/nav/icon_connections_un.png",
+        "selectedIconPath": "image/nav/icon_connections.png",
+        "text":"手册"
+       
+      },
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "image/nav/icon_mall_un.png",
+        "selectedIconPath": "image/nav/icon_mall.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "iconPath": "image/nav/icon_home_un.png",
+        "selectedIconPath": "image/nav/icon_home.png",
+        "text": "知识"
+      }
+    ]
   }
 }
