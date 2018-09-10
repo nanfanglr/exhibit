@@ -1,17 +1,7 @@
+<!--template/kn-item/kn-item.wxml-->
 
-  <view class="tab">
-    <view  data-current="0" bindtap="clickTabPro">
-      <text class=" {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTabPro">陈列知识</text>
-    </view>
-    <view  data-current="1" bindtap="clickTabRule">
-      <text class=" {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTabRule">潮流资讯</text>
-    </view>
-  </view>
-
-  <scroll-view sscroll-y="true">
-    <view class="knowledge" wx:if="{{isShowKN}}">
-      <block wx:for-items="{{ knowledges }}" wx:key="{{ index }}">
-        <view class='kn-item-container'>
+<template name="kn-item">
+  <view class='kn-item-container'>
 
           <image src='https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg' mode="aspectFill"></image>
 
@@ -28,9 +18,5 @@
             </view>
           </view>
         </view>
-      </block>
-    </view>
-    <view class="info" wx:if="{{!isShowKN}}">
-    </view>
-  </scroll-view>
 
+</template>

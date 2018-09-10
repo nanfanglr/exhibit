@@ -7,6 +7,7 @@ Page({
   data: {
     currentTab: 0,
     isShowKN: true,
+    knowledges: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
   },
 
   /**

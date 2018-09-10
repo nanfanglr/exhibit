@@ -36,12 +36,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "share-dtl",
-					"pathName": "pages/share-dtl/share-dtl"
+					"pathName": "pages/share-dtl/share-dtl",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "info",
+					"pathName": "pages/info/info"
 				}
 			]
 		}
