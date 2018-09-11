@@ -1,0 +1,12 @@
+<import src="../kn-item/kn-item.wxml" />
+<template name='info-item'>
+  <view class='info-item-container'>
+    <view class='info-item-title'>
+      <text>{{item.title+idx}}</text>
+      <text>查看全部 ></text>
+    </view>
+    <block wx:for-items="{{item.data}}" wx:key="{{index}}">
+      <template is="kn-item" data="{{item:item,idx:index}}" />
+    </block>
+  </view>
+</template>

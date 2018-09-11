@@ -3,20 +3,20 @@
 <template name="kn-item">
   <view class='kn-item-container'>
 
-          <image src='https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg' mode="aspectFill"></image>
+    <image src='{{item.url}}' mode="aspectFill"></image>
 
-          <view class='kn-item-content'>
+    <view class='kn-item-content'>
 
-            <text>玩转8个销售连带提升，玩转8个销售连带提升玩转8个销售连带提升玩转8个销售连带提升达成指标更靠谱玩转8个销售连带提升，</text>
-            <view class='kn-item-cnt'>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-            </view>
-          </view>
-        </view>
+      <text>{{item.title+idx}}</text>
+      <view class='kn-item-cnt'>
+        <image src='../../image/icon_read_cnt.png'></image>
+        <text>{{item.read}}</text>
+        <image src='../../image/icon_read_cnt.png'></image>
+        <text>{{item.msg}}</text>
+        <image src='../../image/icon_read_cnt.png'></image>
+        <text>{{item.praise}}</text>
+      </view>
+    </view>
+  </view>
 
 </template>

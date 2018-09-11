@@ -1,36 +1,22 @@
-
-  <view class="tab">
-    <view  data-current="0" bindtap="clickTabPro">
-      <text class=" {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTabPro">陈列知识</text>
-    </view>
-    <view  data-current="1" bindtap="clickTabRule">
-      <text class=" {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTabRule">潮流资讯</text>
-    </view>
+<import src="../../template/kn-item/kn-item.wxml" />
+<import src="../../template/info-item/info-item.wxml" />
+<view class="tab">
+  <view data-current="0" bindtap="clickTabPro">
+    <text class=" {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTabPro">陈列知识</text>
   </view>
+  <view data-current="1" bindtap="clickTabRule">
+    <text class=" {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTabRule">潮流资讯</text>
+  </view>
+</view>
 
-  <scroll-view sscroll-y="true">
-    <view class="knowledge" wx:if="{{isShowKN}}">
-      <block wx:for-items="{{ knowledges }}" wx:key="{{ index }}">
-        <view class='kn-item-container'>
 
-          <image src='https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg' mode="aspectFill"></image>
-
-          <view class='kn-item-content'>
-
-            <text>玩转8个销售连带提升，玩转8个销售连带提升玩转8个销售连带提升玩转8个销售连带提升达成指标更靠谱玩转8个销售连带提升，</text>
-            <view class='kn-item-cnt'>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-              <image src='../../image/icon_read_cnt.png'></image>
-              <text>3</text>
-            </view>
-          </view>
-        </view>
-      </block>
-    </view>
-    <view class="info" wx:if="{{!isShowKN}}">
-    </view>
-  </scroll-view>
-
+<view class="content" wx:if="{{isShowKN}}">
+  <block wx:for-items="{{ knowledges }}" wx:key="{{ index }}"  >
+    <template is="kn-item" data="{{item:item,idx:index}}" />
+  </block>
+</view>
+<view class="content" wx:if="{{!isShowKN}}">
+  <block wx:for-items="{{ infos }}" wx:key="{{ index }}" >
+    <template is="info-item" data="{{item:item,idx:index}}" />
+  </block>
+</view>
