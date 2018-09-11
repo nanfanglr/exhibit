@@ -3,10 +3,9 @@
     "pages/manual/manual",
     "pages/share/share",
     "pages/info/info",
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/share-dtl/share-dtl",
-    "pages/info-dtl/info-dtl"
+    "pages/info-dtl/info-dtl",
+    "pages/info-all/info-all"
   ],
   "window": {
     "backgroundTextStyle": "light",

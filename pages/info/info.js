@@ -1,6 +1,7 @@
 // pages/info/info.js
 // var ProductInfo = require('../../template/product-info/product-info.js');
 var KnItem = require('../../template/kn-item/kn-item.js');
+var InfoItem = require('../../template/info-item/info-item.js');
 
 Page({
 
@@ -78,21 +79,21 @@ Page({
         title: "品牌速递",
         data: [{
             url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+          title: "玩转8个销售连带提升,达成指标更靠谱(品牌速递)",
             read: 3,
             praise: 6,
             msg: 99,
           },
           {
             url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+            title: "玩转8个销售连带提升,达成指标更靠谱(品牌速递)",
             read: 3,
             praise: 6,
             msg: 99,
           },
           {
             url: "https://ws1.sinaimg.cn/large/0065oQSqly1fubd0blrbuj30ia0qp0yi.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+            title: "玩转8个销售连带提升,达成指标更靠谱(品牌速递)",
             read: 3,
             praise: 6,
             msg: 99,
@@ -103,21 +104,21 @@ Page({
         title: "终端故事",
         data: [{
             url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+          title: "玩转8个销售连带提升,达成指标更靠谱(终端故事)",
             read: 3,
             praise: 6,
             msg: 99,
           },
           {
             url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+            title: "玩转8个销售连带提升,达成指标更靠谱(终端故事)",
             read: 3,
             praise: 6,
             msg: 99,
           },
           {
             url: "https://ws1.sinaimg.cn/large/0065oQSqly1fubd0blrbuj30ia0qp0yi.jpg",
-            title: "玩转8个销售连带提升,达成指标更靠谱",
+            title: "玩转8个销售连带提升,达成指标更靠谱(终端故事)",
             read: 3,
             praise: 6,
             msg: 99,
@@ -132,6 +133,7 @@ Page({
    */
   onLoad: function(options) {
     new KnItem(this);
+    new InfoItem(this);
   },
 
   /**

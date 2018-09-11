@@ -11,12 +11,12 @@
 
 
 <view class="content" wx:if="{{isShowKN}}">
-  <block wx:for-items="{{ knowledges }}" wx:key="{{ index }}"  >
-    <template is="kn-item" data="{{item:item,idx:index}}" />
+  <block wx:for-items="{{ knowledges }}" wx:key="{{ index }}">
+    <template is="kn-item" data="{{item:item,idx:index,title:'陈列知识'}}" />
   </block>
 </view>
 <view class="content" wx:if="{{!isShowKN}}">
-  <block wx:for-items="{{ infos }}" wx:key="{{ index }}" >
+  <block wx:for-items="{{ infos }}" wx:key="{{ index }}">
     <template is="info-item" data="{{item:item,idx:index}}" />
   </block>
 </view>
