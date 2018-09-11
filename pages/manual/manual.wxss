@@ -1,22 +1,30 @@
 /* pages/manual/manual.wxss */
-.m-item{
-  width:100%;
+
+page {
+  padding-bottom: 10rpx;
+}
+
+.m-item {
+  width: 100%;
   display: flex;
   flex-direction: column;
   color: #666;
   font-size: 28rpx;
-  padding-left: 20rpx ;
+  padding-left: 20rpx;
   padding-right: 20rpx;
   padding-bottom: 10rpx;
   padding-top: 10rpx;
   box-sizing: border-box;
-  align-items: center
+  align-items: center;
 }
-.m-item .image{
+
+.m-item image {
+  border-radius: 10rpx;
   width: 100%;
   margin-top: 10rpx;
   margin-bottom: 10rpx;
 }
-.m-item .title{
-  color: black
+
+.m-item title {
+  color: black;
 }

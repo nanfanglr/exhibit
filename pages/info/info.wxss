@@ -2,7 +2,7 @@
 
 .tab {
   width: 100%;
-  border-bottom: 1rpx solid #ccc;
+  border-bottom: 2rpx solid #ccc;
   text-align: center;
   height: 80rpx;
   background: white;
@@ -17,6 +17,7 @@
 }
 
 .tab>view {
+  padding-bottom: 0;
   width: 50%;
   color: #434343;
 }

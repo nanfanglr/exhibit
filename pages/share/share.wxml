@@ -1,8 +1,8 @@
 <view class='s-container'>
   <block wx:for-items="{{ shares }}" wx:key="{{ index }}">
-    <view class='item' bindtap='openShareDtl'>
-      <image class='image'  src='{{item.url}}' mode="aspectFill"></image>
-      <text class='title'>{{item.title}}</text>
+    <view class='s-item' bindtap='openShareDtl'>
+      <image src='{{item.url}}' mode="aspectFill"></image>
+      <text>{{item.title}}</text>
     </view>
   </block>
 

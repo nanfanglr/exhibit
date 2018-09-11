@@ -2,7 +2,7 @@
 
   <block wx:for-items="{{ manuals }}" wx:key="{{ index }}">
     <view class='m-item'>
-      <image class='image' src='{{item.url}}' mode="widthFix" ></image>
-      <text class='title'>{{item.title}}</text>
+      <image  src='{{item.url}}' mode="widthFix" ></image>
+      <text >{{item.title}}</text>
     </view>
   </block>
