@@ -1,4 +1,7 @@
 // pages/info/info.js
+// var ProductInfo = require('../../template/product-info/product-info.js');
+var KnItem = require('../../template/kn-item/kn-item.js');
+
 Page({
 
   /**
@@ -99,26 +102,26 @@ Page({
       {
         title: "终端故事",
         data: [{
-          url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
-          title: "玩转8个销售连带提升,达成指标更靠谱",
-          read: 3,
-          praise: 6,
-          msg: 99,
-        },
-        {
-          url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg",
-          title: "玩转8个销售连带提升,达成指标更靠谱",
-          read: 3,
-          praise: 6,
-          msg: 99,
-        },
-        {
-          url: "https://ws1.sinaimg.cn/large/0065oQSqly1fubd0blrbuj30ia0qp0yi.jpg",
-          title: "玩转8个销售连带提升,达成指标更靠谱",
-          read: 3,
-          praise: 6,
-          msg: 99,
-        }
+            url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
+            title: "玩转8个销售连带提升,达成指标更靠谱",
+            read: 3,
+            praise: 6,
+            msg: 99,
+          },
+          {
+            url: "https://ww1.sinaimg.cn/large/0065oQSqly1ftzsj15hgvj30sg15hkbw.jpg",
+            title: "玩转8个销售连带提升,达成指标更靠谱",
+            read: 3,
+            praise: 6,
+            msg: 99,
+          },
+          {
+            url: "https://ws1.sinaimg.cn/large/0065oQSqly1fubd0blrbuj30ia0qp0yi.jpg",
+            title: "玩转8个销售连带提升,达成指标更靠谱",
+            read: 3,
+            praise: 6,
+            msg: 99,
+          }
         ]
       },
     ],
@@ -128,7 +131,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    new KnItem(this);
   },
 
   /**

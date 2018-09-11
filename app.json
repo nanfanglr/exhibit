@@ -5,7 +5,8 @@
     "pages/info/info",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/share-dtl/share-dtl"
+    "pages/share-dtl/share-dtl",
+    "pages/info-dtl/info-dtl"
   ],
   "window": {
     "backgroundTextStyle": "light",

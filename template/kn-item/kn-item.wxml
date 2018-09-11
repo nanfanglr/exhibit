@@ -1,7 +1,7 @@
 <!--template/kn-item/kn-item.wxml-->
 
 <template name="kn-item">
-  <view class='kn-item-container'>
+  <view class='kn-item-container' catchtap='openDtl' data-item="{{item}}">
 
     <image src='{{item.url}}' mode="aspectFill"></image>
 
