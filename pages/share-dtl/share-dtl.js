@@ -20,34 +20,40 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function () {
+  onReady: function() {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function() {
 
   },
 
 
 
-   previewImage(e) {
+  previewImage(e) {
     console.log(e)
-    const { current } = e.currentTarget.dataset
-    const { urls } = this.data
+    const {
+      current
+    } = e.currentTarget.dataset
+    const {
+      urls
+    } = this.data
 
     wx.previewImage({
       current,
       urls,
     })
   },
+
+
 })

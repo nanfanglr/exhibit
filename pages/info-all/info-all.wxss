@@ -1,1 +1,2 @@
 /* pages/info-all/info-all.wxss */
+@import "../../template/kn-item/kn-item.wxss";

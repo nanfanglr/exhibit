@@ -1,2 +1,6 @@
 <!--pages/info-all/info-all.wxml-->
-<text>pages/info-all/info-all.wxml</text>
+<import src="../../template/kn-item/kn-item.wxml" />
+
+  <block wx:for-items="{{ infoall }}" wx:key="{{ index }}">
+    <template is="kn-item" data="{{item:item,idx:index,title:'潮流资讯'}}" />
+  </block>
