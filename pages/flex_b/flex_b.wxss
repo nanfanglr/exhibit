@@ -1,0 +1,82 @@
+/* pages/flex_b/flex_b.wxss */
+
+page {
+  background: blanchedalmond;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background: yellow;
+}
+
+.top {
+  height: 100rpx;
+  background: lightcyan;
+}
+
+.bottom {
+  height: 50rpx;
+  background: lightcyan;
+}
+
+.middle {
+  flex: 1;
+  display: flex;
+}
+
+.left {
+  /*左边固定宽度，右边占满剩余宽度*/
+  background: lightgreen;
+  width: 200rpx;
+}
+
+.right {
+  /*左边固定宽度，右边占满剩余宽度*/
+  background: lightgrey;
+  flex: 1;
+  overflow: auto;
+}
+
+/*****以下的样式是用定位来做布局*******/
+
+/* .parent {
+  height: 100%;
+  overflow: hidden;
+} 
+
+.top {
+  background: lightblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+}
+
+.left {
+  background: lightgreen;
+  position: absolute;
+  top: 100rpx;
+  left: 0;
+  bottom: 50rpx;
+  width: 200rpx;
+}
+
+.right {
+  background: lightgray;
+  position: absolute;
+  overflow: auto;
+  left: 200rpx;
+  right: 0;
+  top: 100rpx;
+  bottom: 50rpx;
+}
+
+.bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50rpx;
+}*/

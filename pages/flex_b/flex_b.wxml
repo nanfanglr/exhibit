@@ -1,0 +1,10 @@
+<!--pages/flex_b/flex_b.wxml-->
+<view class="parent">
+  <view class="top">top</view>
+  <view class="middle">
+    <view class="left">left</view>
+    <view class="right">right</view>
+  </view>
+  <view class="bottom">bottom</view>
+</view>
+

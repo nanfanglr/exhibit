@@ -1,0 +1,67 @@
+<!--pages/flex_a/flex_a.wxml-->
+<view class='title'> 两侧定宽，中间自适应，实现1:float+margin </view>
+<view class='box'>
+  <view class="left">left</view>
+  <view class="right">right</view>
+  <view class="middle">middle</view>
+</view>
+<view class='title'> 两侧定宽，中间自适应，实现2:position+margin </view>
+<view class='box1'>
+  <view class="left1">left</view>
+  <view class="right1">right</view>
+  <view class="middle1">middle</view>
+</view>
+<view class='title'>两侧定宽，中间自适应，实现3:圣杯布局(float+负margin+padding+position) </view>
+<view class='box2'>
+  <view class="middle2">middle</view>
+  <view class="right2">right</view>
+  <view class="left2">left</view>
+</view>
+<view class='title'>两侧定宽，中间自适应，实现4:双飞翼布局(float+负margin+margin) </view>
+<view class='box3'>
+  <view class="middle-wrap">
+    <view class="middle3">middle</view>
+  </view>
+  <view class="left3">left</view>
+  <view class="right3">right</view>
+</view>
+
+<view  class='title'> 两侧定宽，中栏自适应,利用flex实现 </view>
+<view class='box4'>
+  <view class="left4">left</view>
+  <view class="right4">right</view>
+  <view class="middle4">middle</view>
+</view>
+
+<view  class='title'> 一列不定宽，一列自适应 ,利用flex实现</view>
+<view class='box5'>
+  <view class="left5">leftleft5</view>
+  <view class="right5">right</view>
+</view>
+
+<view  class='title'> 多列等分布局,利用flex实现</view>
+<view class="parent">
+  <view class="column">1</view>
+  <view class="column">1</view>
+  <view class="column">1</view>
+  <view class="column">1</view>
+</view>
+
+<view class='title'>九宫格布局,利用flex实现</view>
+<view class="parent1">
+  <view class="row">
+    <view class="item">1</view>
+    <view class="item">2</view>
+    <view class="item">3</view>
+  </view>
+  <view class="row">
+    <view class="item">4</view>
+    <view class="item">5</view>
+    <view class="item">6</view>
+  </view>
+  <view class="row">
+    <view class="item">7</view>
+    <view class="item">8</view>
+    <view class="item">9</view>
+  </view>
+</view>

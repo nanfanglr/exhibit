@@ -5,7 +5,9 @@
     "pages/info/info",
     "pages/share-dtl/share-dtl",
     "pages/info-dtl/info-dtl",
-    "pages/info-all/info-all"
+    "pages/info-all/info-all",
+    "pages/flex_a/flex_a",
+    "pages/flex_b/flex_b"
   ],
   "window": {
     "backgroundTextStyle": "light",

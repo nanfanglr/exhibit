@@ -1,0 +1,190 @@
+/* pages/flex_a/flex_a.wxss */
+
+.title {
+  clear: both;
+  font-size: 30rpx;
+}
+
+/*布局相关知识来自：https://segmentfault.com/a/1190000008789039*/
+
+/****************两侧定宽，中间自适应，实现1:float+margin******************/
+
+.left {
+  width: 100rpx;
+  float: left;
+  background: yellow;
+}
+
+.right {
+  width: 200rpx;
+  float: right;
+  background: gray;
+}
+
+.middle {
+  margin-left: 100rpx;
+  margin-right: 200rpx;
+  background: greenyellow;
+}
+
+/****************两侧定宽，中间自适应，实现2:position+margin******************/
+
+.left1, .right1 {
+  position: absolute;
+  width: 100rpx;
+}
+
+.left1 {
+  left: 0;
+  background: yellow;
+}
+
+.right1 {
+  right: 0;
+  background: gray;
+}
+
+.middle1 {
+  margin: 0 100rpx;
+  background: greenyellow;
+}
+
+/********两侧定宽，中间自适应，实现3:圣杯布局(float+负margin+padding+position)******/
+
+.middle2 {
+  float: left;
+  width: 100%;
+  background: greenyellow;
+}
+
+.left2 {
+  float: left;
+  width: 190rpx;
+  margin-left: -100%;
+  position: relative;
+  background: yellow;
+  left: -190rpx;
+}
+
+.right2 {
+  float: left;
+  width: 230rpx;
+  margin-left: -230rpx;
+  background: gray;
+  position: relative;
+  right: -230rpx;
+}
+
+.box2 {
+  padding: 0 230rpx 0 190rpx;
+  background: red;
+}
+
+/*******两侧定宽，中间自适应，实现4:双飞翼布局(float+负margin+margin)*******/
+
+.box3 {
+  margin-top: 10rpx;
+}
+
+.middle-wrap {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+.middle-wrap .middle3 {
+  height: 100%;
+  margin: 0 100rpx; /*留出距离*/
+  background-color: greenyellow;
+}
+
+.left3 {
+  float: left;
+  width: 100rpx;
+  margin-left: -100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.right3 {
+  float: left;
+  width: 100rpx;
+  height: 100%;
+  margin-left: -100rpx;
+  background-color: gray;
+}
+
+/*******************两侧定宽，中栏自适应,利用flex实现**************************/
+
+.box4 {
+  border: 1rpx solid lightgray;
+  margin-top: 10rpx;
+  display: flex;
+  width: 100%;
+}
+
+.left4 {
+  width: 100rpx;
+  background: yellow;
+}
+
+.middle4 {
+  width: 200rpx;
+  background: lightgreen;
+}
+
+.right4 {
+  flex: 1;
+  background: gray;
+}
+
+/*********************一列不定宽，一列自适应 ,利用flex实现***********************/
+
+.box5 {
+  display: flex;
+}
+
+.right5 {
+  flex: 1;
+  background: lightcyan;
+  margin-left: 20rpx;
+}
+
+/************************多列等分布局,利用flex实现**************************/
+
+.parent {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  background: lightgreen;
+}
+
+/***选择紧接在 column元素后出现的column元素**/
+
+.column+ .column {
+  margin-left: 20px;
+}
+
+/************************九宫格布局,利用flex实现**************************/
+
+.parent1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  height: 100rpx;
+  display: flex;
+}
+
+.item {
+  width: 100rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  background: red;
+}
