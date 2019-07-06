@@ -5,8 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    manuals: [
-      {
+    manuals: [{
         "url": "https://ww1.sinaimg.cn/large/0065oQSqly1ftf1snjrjuj30se10r1kx.jpg",
         "title": "18冬陈列指引1"
       },

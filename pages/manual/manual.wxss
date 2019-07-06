@@ -4,7 +4,7 @@ page {
   padding-bottom: 10rpx;
 }
 
-.m-item {
+view {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -18,13 +18,13 @@ page {
   align-items: center;
 }
 
-.m-item image {
+view>image {
   border-radius: 10rpx;
   width: 100%;
   margin-top: 10rpx;
   margin-bottom: 10rpx;
 }
 
-.m-item title {
+view>text {
   color: black;
 }
