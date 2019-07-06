@@ -41,6 +41,5 @@ text.active {
   margin-top: 82rpx;
   width: 100%;
 }
-
 @import "../../template/kn-item/kn-item.wxss";
 @import "../../template/info-item/info-item.wxss";

@@ -16,7 +16,21 @@
         <image src='../../image/icon_read_cnt.png'></image>
         <text>{{item.praise}}</text>
       </view>
+      <text>时间：{{tool.formatDate(item.timeStamp)}}</text>
     </view>
   </view>
 
 </template>
+
+<!-- 下面的代码是用微信的脚本语言处理时间的显示，示例 -->
+<wxs module="tool">
+  var nowDate = getDate();
+  var formatDate = function(orderdate) {
+    nowDate.setTime(orderdate);
+    var year = nowDate.getFullYear() + '年';
+    var month = (nowDate.getMonth() + 1) + '月';
+    var date = nowDate.getDate() + '日';
+    return year + month + date;
+  }
+  module.exports.formatDate = formatDate;
+</wxs>

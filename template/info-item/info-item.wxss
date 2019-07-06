@@ -9,11 +9,15 @@
   border-bottom: 1rpx solid lightgray;
 }
 
+/*品牌速递字体，这样写为了展示第一个子容器选择器的写法*/
+
 .info-item-title>text:first-child {
   color: black;
   font-weight: bold;
   font-size: 28rpx;
 }
+
+/*查看全部字体，这样写为了展示最后一个子容器选择器的写法*/
 
 .info-item-title>text:last-child {
   color: lightgray;
