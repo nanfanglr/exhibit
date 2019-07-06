@@ -1,10 +1,6 @@
 <!--pages/share-dtl/share-dtl.wxml-->
-  <view class='product-detail'>
-    <block wx:for-items="{{ urls }}" wx:key="{{ index }}">
-      <image src="{{item}}"  mode="widthFix" 
-      bindtap="previewImage" 
-      data-current='{{ item }}' 
-      binderror="errorFunctionDtl" 
-     ></image>
-    </block>
-  </view>
+<view class='product-detail'>
+  <block wx:for-items="{{ urls }}" wx:key="{{ index }}">
+    <image src="{{item}}" mode="widthFix" bindtap="previewImage" data-current='{{ item }}' binderror="errorFunctionDtl"></image>
+  </block>
+</view>
