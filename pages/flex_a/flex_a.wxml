@@ -35,7 +35,7 @@
 
 <view  class='title'> 一列不定宽，一列自适应 ,利用flex实现</view>
 <view class='box5'>
-  <view class="left5">leftleft5</view>
+  <view class="left5">left</view>
   <view class="right5">right</view>
 </view>
 

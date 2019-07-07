@@ -1,0 +1,5 @@
+<!--pages/flex_center/flex_center.wxml-->
+<view class='container'>
+  <image></image>
+  <text>欢迎光临</text>
+</view>

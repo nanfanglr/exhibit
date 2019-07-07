@@ -7,7 +7,8 @@
     "pages/info-dtl/info-dtl",
     "pages/info-all/info-all",
     "pages/flex_a/flex_a",
-    "pages/flex_b/flex_b"
+    "pages/flex_b/flex_b",
+    "pages/flex_center/flex_center"
   ],
   "window": {
     "backgroundTextStyle": "light",

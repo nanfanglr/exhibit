@@ -1,0 +1,26 @@
+/* pages/flex_center/flex_center.wxss */
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; 垂直居中*/
+  justify-content: center; /*主轴item，排列方式水平居中*/
+  padding: 0;
+}
+
+.container>image {
+  width: 260rpx;
+  height: 260rpx;
+  background: red;
+}
+
+text {
+  color: black;
+  font-weight: bolder;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+  font-style: italic;
+}

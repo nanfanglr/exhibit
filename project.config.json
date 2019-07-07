@@ -36,7 +36,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 4,
 			"list": [
 				{
 					"id": -1,
@@ -61,6 +61,13 @@
 					"id": -1,
 					"name": "flex_b",
 					"pathName": "pages/flex_b/flex_b",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "flex_center",
+					"pathName": "pages/flex_center/flex_center",
 					"scene": null
 				}
 			]
