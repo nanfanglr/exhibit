@@ -1,0 +1,3 @@
+/* pages/swiper/swiper.wxss */
+@import "../../template/swiper/swiper.wxss";
+

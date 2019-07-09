@@ -8,7 +8,8 @@
     "pages/info-all/info-all",
     "pages/flex_a/flex_a",
     "pages/flex_b/flex_b",
-    "pages/flex_center/flex_center"
+    "pages/flex_center/flex_center",
+    "pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -42,5 +43,6 @@
         "text": "知识"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
