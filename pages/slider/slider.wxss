@@ -1,0 +1,5 @@
+/* pages/slider/slider.wxss */
+page{
+  padding-top: 10rpx
+}
+@import "../../template/slider/slider.wxss";

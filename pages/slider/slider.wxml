@@ -1,0 +1,3 @@
+<!--pages/slider/slider.wxml-->
+<import src="../../template/slider/slider.wxml" />
+<template is="yxxrui-slider" data="{{yxxruiSliderData,yxxruiSliderX,yxxruiSliderCurPage,hideDots:false}}" />

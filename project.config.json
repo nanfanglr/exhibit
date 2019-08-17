@@ -46,7 +46,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 6,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -92,6 +92,20 @@
 					"id": 6,
 					"name": "share-image",
 					"pathName": "pages/share-image/share-image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "slider",
+					"pathName": "pages/slider/slider",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "countdown",
+					"pathName": "pages/countdown/countdown",
 					"query": "",
 					"scene": null
 				}

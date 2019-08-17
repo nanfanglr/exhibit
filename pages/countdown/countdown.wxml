@@ -1,0 +1,2 @@
+<!--pages/countdown/countdown.wxml-->
+<button >{{clock}}</button>

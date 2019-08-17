@@ -1,0 +1,23 @@
+<template name="yxxrui-slider">
+  <view class='yxxrui-slider'>
+    <view style='overflow:hidden;'>
+      <view bindtouchcancel="sliderTouchCancel" bindtouchstart='sliderTouchStart' bindtouchend='sliderTouchEnd' bindtouchmove='sliderTouchMove' style='width:{{yxxruiSliderData.totalWidth}}px;display:flex;transform:translate({{yxxruiSliderX}}px,0)'>
+        <block wx:for="{{yxxruiSliderData.datas}}" wx:for-index="i" wx:key="index">
+          <view class="slider-item" style="padding-left:{{yxxruiSliderData.blankWidth}}px;">
+            <form class="slider-form" bindsubmit="" report-submit="true" data-posttype="" data-posturl="" data-appId="">
+              <button>
+                <image class="slider-img" src="{{item}}" />
+              </button>
+            </form>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class="slider-indicate-dots" hidden='{{hideDots}}'>
+      <block wx:for="{{yxxruiSliderData.indicateDots}}" wx:for-index="i" wx:key="index">
+        <view class="slider-indicate-dot {{i==yxxruiSliderCurPage-1?'active':''}}">
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

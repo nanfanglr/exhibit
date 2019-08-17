@@ -10,7 +10,9 @@
     "pages/flex_b/flex_b",
     "pages/flex_center/flex_center",
     "pages/swiper/swiper",
-    "pages/share-image/share-image"
+    "pages/share-image/share-image",
+    "pages/slider/slider",
+    "pages/countdown/countdown"
   ],
   "window": {
     "backgroundTextStyle": "light",
