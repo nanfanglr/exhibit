@@ -1,0 +1,10 @@
+<template name="shareimg">
+  <view class="show-popup" wx:if='{{showShareImg}}'>
+    <view class="popup-mask"></view>
+    <view class="popup-contents-img">
+      <image id="closeShareImg" bindtap="closeShareImg" src="../../image/close.png"></image>
+      <image id="shareImg" src="{{imgUrl}}"></image>
+      <view bindtap="imgSave">保存图片</view>
+    </view>
+  </view>
+</template>

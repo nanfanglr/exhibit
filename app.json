@@ -9,7 +9,8 @@
     "pages/flex_a/flex_a",
     "pages/flex_b/flex_b",
     "pages/flex_center/flex_center",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/share-image/share-image"
   ],
   "window": {
     "backgroundTextStyle": "light",

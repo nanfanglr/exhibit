@@ -1,0 +1,8 @@
+<import src="../../template/sharebtn/sharebtn.wxml" />
+<import src="../../template/sharebtn/shareimg.wxml" />
+
+
+  <button bindtap="setShareBtn">弹出分享按钮</button>
+
+  <template is="sharebtn" data='{{showShareBtn,posterConfig}}' />
+  <template is="shareimg" data='{{showShareImg,imgUrl}}' />

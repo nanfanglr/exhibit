@@ -1,0 +1,126 @@
+.show-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.popup-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+}
+
+.popup-contents {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 6;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+#cancel {
+  border-top: 1rpx solid #ccc;
+  padding: 20rpx 0;
+  display: flex;
+  font-size: 30rpx;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20rpx 0;
+  font-size: 30rpx;
+  justify-content: center;
+  z-index: 10;
+}
+
+.btn-container>view {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.btn-container>view image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.btn-container>view>button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  z-index: 99;
+}
+
+/*******************************************/
+
+.popup-contents-img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 650rpx;
+  height: 80%;
+  /* background-color: #fff; */
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-contents-img #closeShareImg {
+  height: 40rpx;
+  width: 40rpx;
+  /* background: red; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.popup-contents-img #shareImg {
+  margin-top: 20rpx;
+  height: 80%;
+  width: 610rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.popup-contents-img>view {
+  margin-top: 40rpx;
+  width: 70%;
+  height: 5%;
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  color: white;
+  border-radius: 200rpx;
+}

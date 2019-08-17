@@ -4,11 +4,19 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.2.5",
@@ -38,7 +46,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": -1,
@@ -77,6 +85,14 @@
 					"id": -1,
 					"name": "swiper",
 					"pathName": "pages/swiper/swiper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "share-image",
+					"pathName": "pages/share-image/share-image",
+					"query": "",
 					"scene": null
 				}
 			]

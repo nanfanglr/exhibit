@@ -1,0 +1,2 @@
+/* pages/share-image/share-image.wxss */
+@import "../../template/sharebtn/sharebtn.wxss";

@@ -1,0 +1,22 @@
+<template name="sharebtn">
+<poster id="poster" hide-loading="{{false}}" preload="{{false}}" config="{{posterConfig}}" bind:success="onPosterSuccess" bind:fail="onPosterFail">  </poster>
+  <view class="show-popup" wx-if="{{showShareBtn}}">
+    <view class="popup-mask" bindtap=""></view>
+    <view class="popup-contents">
+      <view id="header">分享到</view>
+      <view class='btn-container'>
+        <view>
+          <image src="../../image/wx.png"></image>
+          <view>微信好友</view>
+          <button open-type="share"> </button>
+        </view>
+        <view bindtap="setShareImg">
+          <image src="../../image/share.png"></image>
+          <view>生成海报</view>
+        </view>
+      </view>
+      <view id='cancel' bindtap="closeShareBtn">取消</view>
+    </view>
+  </view>
+
+</template>
