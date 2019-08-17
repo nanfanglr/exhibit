@@ -14,6 +14,8 @@
  
  6.[小程序官方开发教程](https://developers.weixin.qq.com/ebook?action=get_post_info&token=935589521&volumn=1&lang=zh_CN&book=miniprogram&docid=0008aeea9a8978ab0086a685851c0a)
 
- 7.[小程序海报组件-生成朋友圈分享海报并生成图片](https://github.com/jasondu/wxa-plugin-canvas)，用这个组件封装模板代码
+ 7.[小程序海报组件-生成朋友圈分享海报并生成图片](https://github.com/jasondu/wxa-plugin-canvas)，用这个组件封装模板代码见share-iamge文件
 
  8.两种效果的轮播图模板代码见swiper、slider文件
+
+ 9.倒计时效果见countdown文件
