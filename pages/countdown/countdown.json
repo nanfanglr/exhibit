@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "count": "/components/countDown/countDown"
+  }
 }

@@ -1,0 +1,2 @@
+<!--components/countDown/countDown.wxml-->
+<view wx:if="{{flag}}">{{content}}</view>

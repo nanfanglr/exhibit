@@ -1,2 +1,4 @@
 <!--pages/countdown/countdown.wxml-->
 <button >{{clock}}</button>
+<count now-time="{{nowTime}}" over-time="{{overTime}}"/>
+

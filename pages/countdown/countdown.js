@@ -7,11 +7,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    endtime: Date.now() + 360000000
-
+    endtime: Date.now() + 3600000,
+    nowTime: 1539089166,
+    overTime: 1539172160
   },
-
-
 
 
   /**
